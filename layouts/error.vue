@@ -1,7 +1,7 @@
 <!--
  * @Author: Hikari
  * @Date: 2021-07-09 16:49:22
- * @LastEditTime: 2021-07-09 18:39:18
+ * @LastEditTime: 2021-07-17 17:04:23
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /yorozu-admin/layouts/error.vue
@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import Page401 from '@/lib/ui-components/ErrorPage/401'
-import Page404 from '@/lib/ui-components/ErrorPage/404'
+import Page401 from '@/lib/t-ui/ErrorPage/401'
+import Page404 from '@/lib/t-ui/ErrorPage/404'
 export default {
     components:{
         Page401,

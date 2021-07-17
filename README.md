@@ -1,6 +1,6 @@
-# Yorozu-admin
+# 萬アドミン
 
-## Build Setup
+## 运行项目
 
 ```bash
 # install dependencies
@@ -15,6 +15,15 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+```
+
+## 更新nuxt版本
+```bash
+# yarn
+yarn upgrade nuxt
+
+#npm 
+npm update nuxt
 ```
 
 ### 添加.env文件
@@ -52,3 +61,24 @@ proxy:{
 </svg-icon>
 ```
 
+
+
+##TailwindCss 安装
+
+- 安装依赖
+```bash
+npm install --save-dev @nuxtjs/tailwindcss postcss@latest
+```
+
+- 配置nuxt.config.js
+```javascript
+//nuxt.config.js
+export default {
+  buildModules: ['@nuxtjs/tailwindcss']
+}
+```
+
+- 创建tailwind.config.js 文件 
+```bash
+npx tailwindcss init
+```
