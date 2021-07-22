@@ -82,3 +82,28 @@ export default {
 ```bash
 npx tailwindcss init
 ```
+
+
+### i18n使用方法
+> 具体使用的.vue文件内
+```html
+<i18n>
+{
+    "ja": {
+      "hello": "こんにちは世界"
+    },
+    "en": {
+      "hello": "Hello World"
+    },
+    "zh":{
+        "hello": "你好世界"
+    }
+}
+</i18n>
+```
+
+```html
+<div>
+{{ $t('hello') }}
+</div>
+```

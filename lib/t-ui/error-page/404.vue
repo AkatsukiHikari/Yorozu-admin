@@ -1,7 +1,7 @@
 <!--
  * @Author: Hikari
  * @Date: 2020-03-26 08:53:37
- * @LastEditTime: 2021-07-09 18:35:22
+ * @LastEditTime: 2021-07-17 18:17:43
  * @LastEditors: Please set LastEditors
  * @Description: 404 NOT FOUND
  * @FilePath: /core/nuxt-framework/lib/components/ErrorPage/404.vue
@@ -13,22 +13,22 @@
       <div class="pic-404">
         <img
           class="pic-404__parent"
-          src="@/lib/assets/404_images/404.png"
+          src="../assets/404_images/404.png"
           alt="404"
         />
         <img
           class="pic-404__child left"
-          src="@/lib/assets/404_images/404_cloud.png"
+          src="../assets/404_images/404_cloud.png"
           alt="404"
         />
         <img
           class="pic-404__child mid"
-          src="@/lib/assets/404_images/404_cloud.png"
+          src="../assets/404_images/404_cloud.png"
           alt="404"
         />
         <img
           class="pic-404__child right"
-          src="@/lib/assets/404_images/404_cloud.png"
+          src="../assets/404_images/404_cloud.png"
           alt="404"
         />
       </div>

@@ -1,7 +1,7 @@
 <!--
  * @Author: Hikari
  * @Date: 2020-03-26 08:45:23
- * @LastEditTime: 2021-07-09 19:17:33
+ * @LastEditTime: 2021-07-19 15:53:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /core/nuxt-framework/lib/components/ErrorPage/404.vue
@@ -9,7 +9,6 @@
 
 <template>
     <div class="errPage-container">
-
         <div class="content">
             <div>
                 <img
@@ -36,8 +35,9 @@
 </template>
 
 <script>
-import errGif from '~/lib/assets/401_images/401.gif'
+import errGif from '../assets/401_images/401.gif'
 export default {
+    name:"Page401",
     data() {
         return {
             dialogVisible: false,

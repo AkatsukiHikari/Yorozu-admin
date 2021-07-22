@@ -15,7 +15,9 @@
     "@nuxtjs/svg-sprite": "^0.5.2",
     "core-js": "^3.8.3",
     "iview": "^3.5.4",
+    "lodash": "^4.17.21",
     "nuxt": "^2.14.12",
+    "nuxt-i18n": "^6.27.3",
     "sass": "^1.35.2",
     "sass-loader": "^10"
   },
