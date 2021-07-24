@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-ui",
+  "version": "1.0.0",
+  "description": "基于Tailwindcss的一套UI组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tailwind",
+    "ui",
+    "element"
+  ],
+  "author": "hikari",
+  "license": "MIT"
+}

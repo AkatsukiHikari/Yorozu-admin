@@ -1,6 +1,6 @@
 <template>
     <div>
-        <t-nav>
+        <t-nav :title="$t('title')">
             
         </t-nav>
 
@@ -17,3 +17,15 @@ export default {
     },
 }
 </script>
+
+<i18n>
+{
+    "ja": {
+        "title": "萬アドミン"
+    },
+
+    "zh": {
+        "title": "Yorozu"
+    }
+}
+</i18n>

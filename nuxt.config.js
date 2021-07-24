@@ -40,6 +40,15 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+
+  // Defaults options
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {},
+  },
+
   svgSprite: {
     // manipulate module options
   },
@@ -60,13 +69,14 @@ export default {
   i18n:{
       locales:[{
           code: 'ja',
-          name: '日本語'
+          name: '日本語',
+          iso: 'ja-JP',
       },{
         code: 'zh',
         name: '中文简体'
       }],
 
-      defualtLocale: 'zh',
+      defaultLocale: 'ja',
       vueI18n: {
         fallbackLocale: 'ja',
       },
